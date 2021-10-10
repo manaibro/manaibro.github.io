@@ -3,7 +3,10 @@
   export let name: string;
 </script>
 
-<Home />
+<svelte:head>
+  <title>Manai Brothers | Home</title>
+</svelte:head>
+
 <main>
   <h1>Hello {name}!</h1>
   <p>
